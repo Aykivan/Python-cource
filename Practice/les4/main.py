@@ -77,7 +77,10 @@
 #     if my_list.count(item) == 1:
 #         new_list.append(item)
 # print(new_list)
-
+#  print([letter for latter in my_list if my_list(latter).count == 1])
+#  1 letter - элемент который мы добавляем
+#  for latter in my_list - пробегаемся по элементам в массиве май лист 
+#  if my_list(latter).count == 1 - если условие выполнено добавляем 1 letter
 # .count - функция которая считает количество повторений эл-та в списке
 
 # my_list = set(nubs.split())
